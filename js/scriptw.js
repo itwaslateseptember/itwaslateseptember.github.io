@@ -1,4 +1,4 @@
-// Add the API key and weather-related functions
+// bron api key openweather
 const API_KEY = '6584e8e2671b72c4f10dbbfcd9671630';
 
 function getLocation() {
