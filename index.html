@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care for the fox</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous" defer></script>
+</head>
+
+<body>
+    <script src="js/scriptw.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+    <main>
+        <div class="left-side">
+            <div class="image">
+                <img src="img/default.png" alt="image of a fox"/>
+            </div>
+            <h1 class="day"><span class="time">Day 1 Morning</span></h1>
+            <h2 class="conversation"><span id="conversation">I will let you know how I'm doing</span></h2>
+        </div>
+        <div class="right-side">
+            <button class="options" id="info">Birth Certificate</button>
+            <button class="options" id="play">Time To Play</button>
+            <button class="options" id="food">Time To Feed</button>
+            <!-- Break -->
+            <button class="play" id="toy">Give a Toy</button>
+            <button class="play" id="run">Let's go for a run</button>
+            <button class="play" id="swim">Let's go swimming</button>
+            <!-- Break -->
+            <button class="food" id="berries">Berries</button>
+            <button class="food" id="chicken">Chicken</button>
+            <button class="food" id="mouse">Mouse</button>
+            <button id="home">Home</button>
+        </div>
+    </main>
+    <audio id="feed-sound" src="feed.mp3" preload="auto"></audio>
+    <audio id="play-sound" src="play.mp3" preload="auto"></audio>
+    <audio id="sad-sound" src="sad.mp3" preload="auto"></audio>
+    <audio id="happy-sound" src="happy.mp3" preload="auto"></audio>
+
+    <div id="location"></div>
+    <div id="weather"></div>
+</body>
+
+</html>
