@@ -9,6 +9,7 @@ function getLocation() {
   }
 }
 
+//bron github HVA
 function fetchWeather(position) {
   const lat = position.coords.latitude;
   const lon = position.coords.longitude;
