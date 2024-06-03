@@ -40,7 +40,7 @@ function updateBackground(weatherCondition) {
       backgroundImage = 'url(img/snowy.jpg)';
       break;
     default:
-      backgroundImage = 'url(img/default.jpg)';
+      backgroundImage = 'url(img/default-background.jpg)';
   }
 
   document.body.style.backgroundImage = backgroundImage;
